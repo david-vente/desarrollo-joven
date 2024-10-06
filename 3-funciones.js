@@ -99,7 +99,7 @@ const calcularArea = radio => {
 // 5.1 Escribe una función que calcule la suma de los primeros n números enteros de forma recursiva. Por ejemplo: `suma(3) -> 1 + 2 + 3 = 6`
 function suma(n) {
     // Tu código aquí
-    if (n!===0){
+    if (n!==0){
         return n + suma(n-1)
     } else {return 0}
     
