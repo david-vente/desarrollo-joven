@@ -72,21 +72,28 @@ function saltarCinco() {
 // Instrucción: Escribe una función que reciba un número del 1 al 7 y devuelva el día de la semana correspondiente (1 es "Lunes", 2 es "Martes", ..., 7 es "Domingo"). Usa la estructura `switch`.
 function obtenerDiaSemana(dia) {
     // Tu código aquí
-    switch (numero){
+    switch (dia){
         case 1:
             console.log("Lunes")
+            break
         case 2:
             console.log("Martes")
+            break
         case 3:
             console.log("Miercoles")
+            break
         case 4:
             console.log("Jueves")
+            break
         case 5:
             console.log("Viernes")
+            break
         case 6:
             console.log("Sábado")
+            break
         case 7:
             console.log("Domingo")
+            break
     }
 }
 
@@ -101,8 +108,10 @@ function esVocal(letra) {
         case "o":
         case "u":
             console.log("Es vocal")
+            break
         default:
             console.log("No es vocal")
+            break
     }
 }
 
