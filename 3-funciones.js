@@ -18,8 +18,8 @@
     function esMayorDeEdad(n){
         if (n>18){
             return (true)
-        }
-    } else {return(false)}
+        } else {return(false)}
+    } 
 
 // 2. Parámetros
 // 2.1 Crea una función llamada `multiplicar` que reciba dos parámetros, los multiplique y devuelva el resultado.
@@ -85,7 +85,7 @@
 
 // 4.2 Crea una función flecha llamada `saludarFlecha` que reciba un parámetro `nombre` y devuelva "Hola [nombre]".
     // Tu código aquí
-    const saludarFlecha = nombre = => {
+    const saludarFlecha = nombre => {
         return ("Hola "+nombre)
     }
 
@@ -97,7 +97,7 @@ const calcularArea = radio => {
 
 // 5. Recursividad
 // 5.1 Escribe una función que calcule la suma de los primeros n números enteros de forma recursiva. Por ejemplo: `suma(3) -> 1 + 2 + 3 = 6`
-function suma(n) {
+function suma(n)  {
     // Tu código aquí
     if (n!==0){
         return n + suma(n-1)
