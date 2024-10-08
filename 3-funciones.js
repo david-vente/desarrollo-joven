@@ -112,7 +112,9 @@ function fibonacci(n) {
         return 0
     } else if (n===2){
         return 1
-    } else {fibonacci(n-1) + fibonacci(n-2)}
+    } else {
+        return (fibonacci(n-1) + fibonacci(n-2))
+    }
 }
 
 // 5.3 Crea una función recursiva llamada `factorial` que calcule el factorial de un número. El factorial de n (n!) es el producto de todos los números enteros positivos menores o iguales a n.
